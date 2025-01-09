@@ -4,7 +4,7 @@ import {Html, OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from '../Loader';
 import { HemisphereLight, PointLight } from "three";
 const Computers = () => {
-  const computer = useGLTF('src/public/planet/scene.gltf');
+  const computer = useGLTF('/planet/scene.gltf');
 
 
   
