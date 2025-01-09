@@ -4,7 +4,7 @@ import {Html, OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from '../Loader';
 import { HemisphereLight, PointLight } from "three";
 const Computers = () => {
-  const computer = useGLTF('/desktop_pc/scene.gltf');
+
  
  
 
@@ -23,7 +23,7 @@ const Computers = () => {
 
   <pointLight intensity={2}/>
     <primitive
-      object={computer.scene}
+     
       scale={2}
  
      
