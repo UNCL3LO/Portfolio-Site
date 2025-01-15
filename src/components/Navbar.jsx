@@ -22,16 +22,16 @@ const [toggle, setToggle] = useState(false);
    
   </Link>
 
-  <ul className='list-none hidden sm:flex flex-row gap-10'>
+  <ul className='list sm:flex flex-row gap-10'>
     {navLinks.map((Link) => (
        <li
     key={Link.id}
-    className={'${active === Link.title ? "text-black" : "text-slate-950"} hover:text-black text-[18px] font-semibold cursor-pointer w-full hover:bg-slate-50 p-[5px] rounded-[5px] shadow-card'}
+    className="text-black bg-slate-50 text-[18px] font-semibold cursor-pointer w-full hover:bg-purple-900 p-[5px] rounded-[5px] shadow-card"
     onClick={()=> setActive(Link.title)}
 
    
    >
-      <a href={'#${Link.id}'}>{Link.title}</a>
+      <a href={`#${Link.id}`}>{Link.title}</a>
       
     </li>
    ))}

@@ -17,7 +17,11 @@ const App = () => {
       <hr/>
       <Experience />
       <Tech/>
+      
+     <section id="work">
       <Works/>
+      </section>
+
       <Feedbacks/>
       <div >
         <Contact/>

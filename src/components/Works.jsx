@@ -1,36 +1,52 @@
 import React from 'react'
 
+
+
 const Works = () => {
   return (
     <>
-    <div className='items-center m-5'>
-    <div className='flex flex-row'>
-    
-     <a 
-            href="https://hms-ruddy.vercel.app" 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            <div className='bg-black w-[250px] h-[250px]'>Works
-    </div>
-    </a>
-    <a 
+      <div className='items-center my-20'>
+        {/* First row */}
+        <div className='flex flex-row'>
+         
+            <div className='bg-black w-[250px] h-[250px] flex items-center justify-center text-white'>
+              Works
+            </div>
+         
+          <div className='bg-orange-500 w-[300px] h-[300px] m-2'>
+          <a 
             href="https://curate-east-dev.vercel.app" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-
-    <div className='bg-green-800 w-[250px] h-[250px]'>Works</div> 
+              <iframe 
+        src="https://curate-east-dev.vercel.app" 
+        title="Embedded Site" 
+        className="w-full h-full rounded-sm pointer-events-none"
+      ></iframe>
+          </a>
+          </div>
+          <div className='bg-orange-500 w-[300px] h-[300px] m-2'>
+    <a 
+      href="https://hms-cy54-uncl3los-projects.vercel.app" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="w-full h-full block"
+    >
+      <iframe 
+        src="https://hms-cy54-uncl3los-projects.vercel.app" 
+        title="Embedded Site" 
+        className="w-full h-full rounded-sm pointer-events-none"
+      ></iframe>
     </a>
-    </div>
-    <div className='flex flex-row'>
-    <div className='bg-orange-800 w-[250px] h-[250px]'>Works</div>
-     <div className='bg-violet-800 w-[250px] h-[250px]'>Works</div>
-     </div>
-     
-     </div>
-     </>
-     )
-}
+  </div>
+        </div>
 
-export default Works
+       
+
+      </div>
+    </>
+  );
+};
+
+export default Works;
