@@ -13,7 +13,7 @@ const Works = () => {
               Works
             </div>
          
-          <div className='bg-orange-500 w-[300px] h-[300px] m-2'>
+          <div className='border-2 border-black w-[300px] h-[300px] m-2 hover:border-white hover:translate-y-2'>
           <a 
             href="https://curate-east-dev.vercel.app" 
             target="_blank" 
@@ -26,7 +26,7 @@ const Works = () => {
       ></iframe>
           </a>
           </div>
-          <div className='bg-orange-500 w-[300px] h-[300px] m-2'>
+          <div className='border-2 border-black w-[300px] h-[300px] m-2 hover:border-white hover:translate-y-2 transition duration-300 ease-in-out'>
     <a 
       href="https://hms-cy54-uncl3los-projects.vercel.app" 
       target="_blank" 

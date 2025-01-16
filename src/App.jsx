@@ -12,7 +12,9 @@ const App = () => {
         <Hero/>
        
       </div>
+      <section id="about">
       <About />
+      </section>
       
       <hr/>
       <Experience />
@@ -24,7 +26,10 @@ const App = () => {
 
       <Feedbacks/>
       <div >
+
+        <section id="contact">
         <Contact/>
+        </section>
         <StarsCanvas/>
 
       </div>

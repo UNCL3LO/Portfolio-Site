@@ -33,6 +33,7 @@ className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
 const About = () => {
   return (
     <>
+    <div className='hover:bg-black transform transition-all duration-300 ease-in-out'>
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}>
         Introduction
@@ -51,10 +52,7 @@ const About = () => {
                see examples of my work and how I can help bring your software projects to life.
 
           </motion.p>
-<div className='mt-20 flex flex-wrap gap-10'>
-  {services.map((service, index) => (<ServiceCard key={service.title} 
-  index={index} {...service}/>)) }
-  </div>          
+          </div>
           </>
   )
 }

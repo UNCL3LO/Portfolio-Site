@@ -44,6 +44,7 @@ const ExperienceCard = ({experience})=> (
 const Experience = () => {
   return (
     <>
+    <div className='hover:bg-black transform transition-all duration-300 ease-in-out'>
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}>
           What I have done so far
@@ -55,7 +56,9 @@ const Experience = () => {
             {experiences.map((experience, index)=>(<ExperienceCard key={index} experience={experience}/>))}
           </VerticalTimeline>
 
-          </div></>
+          </div>
+          </div>
+          </>
   )
 }
 
