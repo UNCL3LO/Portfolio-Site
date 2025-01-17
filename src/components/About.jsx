@@ -43,13 +43,11 @@ const About = () => {
         <motion.p
           variants={fadeIn("","", 0.1, 1)}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-            Welcome to my portfolio! I'm a dedicated and results-oriented software engineer<br/>
-             with a focus on delivering high-quality solutions that drive business success.<br/> 
-             With expertise in web development, application design, and data analysis, I thrive on 
-             tackling complex challenges and turning ideas into reality. Whether it's building scalable
-              web applications, optimizing performance, or implementing innovative features, I am committed to
-               creating impactful solutions that meet and exceed client expectations. Explore my portfolio to 
-               see examples of my work and how I can help bring your software projects to life.
+            Welcome to my portfolio! I'm a software engineer focused on creating reliable and effective solutions that support business goals.
+
+I specialize in web development, application design, and data analysis, and I enjoy solving challenging problems and building practical tools. From developing scalable web applications to improving performance and adding new features, my goal is to deliver work that meets client needs.
+
+Feel free to explore my portfolio to see examples of what I’ve done and how I can assist with your software projects.
 
           </motion.p>
           </div>

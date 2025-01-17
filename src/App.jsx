@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from "./components"
+import MatrixBackground from "./components/canvas/MatrixBackground"
 const App = () => {
  
 
@@ -7,6 +8,7 @@ const App = () => {
     <BrowserRouter>
 
     <div>
+      
       <div >
         <Navbar />
         <Hero/>

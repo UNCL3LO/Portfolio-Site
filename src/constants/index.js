@@ -121,11 +121,11 @@ import {
       ],
     },
     {
-      title: "Web Developer",
+      title: " Full Stack Web Developer",
       company_name: "Freelance",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2022 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with clients to create high-quality products.",

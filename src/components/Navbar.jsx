@@ -26,7 +26,7 @@ const [toggle, setToggle] = useState(false);
     {navLinks.map((Link) => (
        <li
     key={Link.id}
-    className={`text-white bg-black text-[18px] font-normal cursor-pointer border-2 w-full hover:bg-black hover:text-white hover:border-white hover:-translate-x-1 p-[5px] px-6 rounded-[50px] shadow-card transition transform
+    className={`text-white bg-black text-[18px] font-normal cursor-pointer border-2 w-full hover:bg-black hover:text-black hover:border-white hover:-translate-x-1 p-[5px] px-6 rounded-[50px] shadow-card transition transform
     ${active === Link.title ? 'bg-black text-white green-pink-gradient border-purple-400 hover:-translate-x-1' : 'hover:bg-white hover:text-black hover:border-2 hover:-translate-x-1'}`}
     onClick={()=> setActive(Link.title)}
 
