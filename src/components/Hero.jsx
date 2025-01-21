@@ -39,7 +39,7 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#f5f8f8]'/>
 
 </div>
-<div>
+<div className='hidden sm:block'>
 
   <p className={styles.sectionSubText}>
   Hi, I'm

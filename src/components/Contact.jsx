@@ -46,7 +46,7 @@ const Contact = () => {
 
       {/* Back to Top Button */}
       <button
-        className="fixed bottom-4 right-4 bg-black text-white p-3 rounded-full hidden md:block hover:bg-gray-800 transition"
+        className="fixed bottom-4 right-4 bg-black text-white p-3 rounded-full md:block hover:bg-gray-800 transition"
         id="backToTop"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
